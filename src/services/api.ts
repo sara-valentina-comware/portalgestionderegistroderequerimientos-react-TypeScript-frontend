@@ -93,13 +93,10 @@ export async function crearRequerimiento(data: any) {
 
 // REQUERIMIENTO POR USUARIO
 export async function getRequerimiento(id: string) {
-
     const res = await fetch(
-        `https://pgrr-backend.onrender.com/${id}`
+        `${API_URL}/requerimientos/${id}`
     );
-
     return res.json();
-
 }
 
 // CHATBOT
