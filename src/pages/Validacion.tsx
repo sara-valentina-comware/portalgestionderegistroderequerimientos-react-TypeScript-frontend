@@ -125,7 +125,7 @@ export default function Validacion() {
         try {
 
             const res = await fetch(
-                `http://localhost:3000/requerimientos/finalizar/${id}`,
+                `https://pgrr-backend.onrender.com/requerimientos/finalizar/${id}`,
                 {
                     method: "PUT",
                     headers: {

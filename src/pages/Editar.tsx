@@ -7,7 +7,7 @@ import volverIcon from "../assets/img/anterior.png";
 import { getRequerimiento } from "../services/api";
 import Navbar from "../components/Navbar";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://pgrr-backend.onrender.com";
 
 export default function Editar() {
 
