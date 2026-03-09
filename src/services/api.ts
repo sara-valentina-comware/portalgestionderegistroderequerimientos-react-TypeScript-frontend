@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://sara-valentina-comware.github.io/-pgrr-backend/";
 
 // LOGIN
 
@@ -94,7 +94,7 @@ export async function crearRequerimiento(data: any) {
 export async function getRequerimiento(id: string) {
 
     const res = await fetch(
-        `http://localhost:3000/requerimientos/${id}`
+        `https://sara-valentina-comware.github.io/-pgrr-backend/${id}`
     );
 
     return res.json();
@@ -147,6 +147,7 @@ export async function guardarValidacion(
 
     return res.json();
 }
+
 
 // ENVIAR A JIRA
 export async function enviarAJira(data: any) {
